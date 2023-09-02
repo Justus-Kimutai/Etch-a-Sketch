@@ -1,0 +1,26 @@
+.container{
+    margin: 0 auto;
+    width: 50%;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 500px;
+    width: 500px;
+}
+.square{
+    border: 1px solid rgb(238, 238, 238);
+    box-sizing: border-box;
+}
+button{
+    margin-bottom: 20px;
+    display: block;
+    margin-right: 20px;
+}
+.flex{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
